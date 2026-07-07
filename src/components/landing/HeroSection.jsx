@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../../utils/constants';
+import bitcoinImg from "../../assets/bitcoin.png";
+
+
 
 
 export default function HeroSection() {
@@ -64,7 +67,7 @@ export default function HeroSection() {
         <div className="bg-[rgba(24,24,27,0.6)] backdrop-blur-[12px] border border-white/10 aspect-video rounded-xl overflow-hidden shadow-2xl relative">
           <div className="absolute inset-0 bg-gradient-to-tr from-[#c3c0ff]/5 via-transparent to-[#4cd7f6]/5" />
           <img
-            src="https://www.pexels.com/photo/close-up-shot-of-bitcoins-buried-in-the-ground-5980927/"
+            src={bitcoinImg}
             alt="Bitcoin"
             className="w-full h-full object-cover"
           />
