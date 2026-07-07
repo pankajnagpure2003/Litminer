@@ -14,7 +14,7 @@ export default function LoginPage() {
     try {
       await login(form.email, form.password);
       navigate(ROUTES.DASHBOARD);
-    } catch {}
+    } catch { }
   };
 
   return (
@@ -35,7 +35,7 @@ export default function LoginPage() {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#4f46e5] to-[#4cd7f6] flex items-center justify-center">
               <span className="material-symbols-outlined text-white text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>bolt</span>
             </div>
-            <span className="font-[Sora] text-2xl font-bold tracking-tighter text-[#c3c0ff]">AETHERIC_FLUX</span>
+            <span className="font-[Sora] text-2xl font-bold tracking-tighter text-[#c3c0ff]">Litminer</span>
           </Link>
           <h1 className="font-[Sora] text-3xl font-bold text-[#e5e1e4] mb-2">Welcome back</h1>
           <p className="text-[#c7c4d8] font-[Inter]">Sign in to your mining dashboard</p>

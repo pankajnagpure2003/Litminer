@@ -38,7 +38,7 @@ export default function RegisterPage() {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#4f46e5] to-[#4cd7f6] flex items-center justify-center">
               <span className="material-symbols-outlined text-white text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>bolt</span>
             </div>
-            <span className="font-[Sora] text-2xl font-bold tracking-tighter text-[#c3c0ff]">AETHERIC_FLUX</span>
+            <span className="font-[Sora] text-2xl font-bold tracking-tighter text-[#c3c0ff]">Litminer</span>
           </Link>
           <h1 className="font-[Sora] text-3xl font-bold text-[#e5e1e4] mb-2">Join the Network</h1>
           <p className="text-[#c7c4d8] font-[Inter]">Create your mining account in seconds</p>
@@ -53,10 +53,10 @@ export default function RegisterPage() {
             )}
 
             {[
-              { key: 'username', label: 'Username', type: 'text', placeholder: 'Crypto_King' },
-              { key: 'email', label: 'Email Address', type: 'email', placeholder: 'crypto@aethericflux.io' },
-              { key: 'password', label: 'Password', type: 'password', placeholder: '••••••••' },
-              { key: 'confirmPassword', label: 'Confirm Password', type: 'password', placeholder: '••••••••' },
+              { key: 'username', label: 'Username', type: 'text', placeholder: '' },
+              { key: 'email', label: 'Email Address', type: 'email', placeholder: '' },
+              { key: 'password', label: 'Password', type: 'password', placeholder: '' },
+              { key: 'confirmPassword', label: 'Confirm Password', type: 'password', placeholder: '' },
             ].map(({ key, label, type, placeholder }) => (
               <div key={key}>
                 <label className="block text-[#c7c4d8] font-[Inter] text-xs font-bold uppercase tracking-wider mb-2">{label}</label>
