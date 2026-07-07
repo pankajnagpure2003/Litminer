@@ -69,7 +69,7 @@ export default function Validators() {
             Decentralized <span className="text-gradient">Validator</span> Nodes
           </h2>
           <p className="text-base text-purple-200/60 font-sans">
-            Aetheria is anchored by active cryptographic nodes geographically distributed across global networks to guarantee data redundancy and fast validations.
+            Litminer is anchored by active cryptographic nodes geographically distributed across global networks to guarantee data redundancy and fast validations.
           </p>
         </div>
 

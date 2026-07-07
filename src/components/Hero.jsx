@@ -304,7 +304,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 font-mono text-xs tracking-wider">
             <Terminal className="w-3.5 h-3.5 text-cyan-400" />
-            <span>AETHERIA v1.0.0 MAINNET LIVE</span>
+            <span></span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-white tracking-tight">
@@ -314,7 +314,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-purple-200/60 leading-relaxed font-sans">
-            Aetheria is a hyper-scalable, zero-gas, secure Layer 2 blockchain designed for high-performance decentralized financial tools, micro-consensuses, and sub-second validation.
+            litminer is a hyper-scalable, zero-gas, secure Layer 2 blockchain designed for high-performance decentralized financial tools, micro-consensuses, and sub-second validation.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 pt-2">
@@ -368,7 +368,7 @@ export default function Hero() {
           <div className="absolute top-4 right-4 bg-purple-950/30 backdrop-blur-md border border-purple-500/10 px-3.5 py-2 rounded-lg font-mono text-[9px] tracking-widest text-cyan-400/80">
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-ping" />
-              <span>SHARD_ID: #40292</span>
+              <span></span>
             </div>
           </div>
 
