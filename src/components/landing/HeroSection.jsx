@@ -19,7 +19,7 @@ export default function HeroSection() {
         <div className="inline-flex items-center gap-1 px-3 py-1 bg-[#c3c0ff]/10 border border-[#c3c0ff]/20 rounded-full mb-2">
           <span className="w-2 h-2 rounded-full bg-[#c3c0ff] animate-pulse" />
           <span className="text-[#c3c0ff] font-[Inter] font-bold text-[10px] tracking-widest uppercase">
-            Mainnet v4.2 Live
+
           </span>
         </div>
 
