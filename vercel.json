@@ -1,3 +1,9 @@
 {
-  "name": "litminer-web"
+  "name": "litminer-web",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
