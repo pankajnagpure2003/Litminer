@@ -92,7 +92,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-[#c7c4d8]/40 text-[10px] font-bold tracking-[0.2em] uppercase font-[Inter]">
-          © 2024 Litminr Mining. ALL RIGHTS RESERVED.
+          © 2026 Litminr Mining. ALL RIGHTS RESERVED.
         </p>
         <p className="text-[#c7c4d8]/40 text-[10px] font-bold tracking-[0.2em] uppercase font-[Inter]">
           
